@@ -6,23 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="1" cellpadding="15" cellspacing="0" width="100%"></table>
-    <p><img src="gambar.jpg" alt="gambar" width="250px" height="350px"></p>
-    <button type="submit">Upload Photo</button>
-    <p><label> Old Password </label>
-    </p>
-    <p><input type="text" id="nama">
-    </p>
-    <p><label> New Password : </label>
-    </p>
-    <p><input type="text" id="nama">
-    </p>
-    <button type="submit">Change Password</button>
-</
-    <!-- Kolom kanan -->
-        <td width="65%">
-          <h3>Profile Information</h3>
-          <table border="0" cellpadding="8" width="100%">
+    <table border="1" cellpadding="15" cellspacing="0" width="100%">
+      <tr valign="middle">
+        <!-- Kolom kiri -->
+        <td width="10%" align="center">
+          <h1>Account Management</h1>
+          <img src="gambar.jpg" alt="Foto Profil" width="200" /><br /><br />
+          <input type="file"><br /><br />
+          <hr/>
+          <form>
+            <label>Old Password</label><br />
+            <input type="password" /><br /><br />
+            <hr/>
+            <label>New Password</label><br />
+            <input type="password" /><br /><br />
+            <input type="submit" value="Change Password" />
+          </form>
+        </td>
+
+        <!-- Kolom kanan -->
+        <td width="50%">
+          <h1>Profile Information</h1>
+          <table border="0" cellpadding="10" width="100%">
             <tr>
               <td>Username</td>
               <td><input type="text" value="NurAlam" /></td>
@@ -31,7 +36,7 @@
             </tr>
             <tr>
               <td>Nickname</td>
-              <td><input type="text" value="NurAlam" /></td>
+              <td><input type="text" value="Nur Alam" /></td>
               <td>Role</td>
               <td>
                 <select>
@@ -49,8 +54,8 @@
             </tr>
           </table>
 
-          <h3>Contact Info</h3>
-          <table border="0" cellpadding="8" width="100%">
+          <h1>Contact Info</h1>
+          <table border="0" cellpadding="10" width="100%">
             <tr>
               <td>Email</td>
               <td><input type="email" value="nuralamgarut2311@gmail.com" /></td>
@@ -65,15 +70,17 @@
             </tr>
           </table>
 
-          <h3>About the User</h3>
-          <label>Biographical Info:</label><br />
-          <textarea rows="5" cols="80">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quas magni doloribus unde, excepturi praesentium hic corrupti enim cumque iure nesciunt? Vero fugiat quas quae, fugit ducimus dolore nulla architecto.
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iusto magnam accusantium repellendus facere reprehenderit itaque, error, ducimus dignissimos vero magni quae corporis, libero esse ipsum et odit suscipit! Ab.
+          <h1>About the User</h1>
+          <label><h3>Biographical Info:</h3></label><br />
+          <textarea rows="5" cols="100">
+Sebagai lulusan SMK di bidang Multimedia, saya membawa kemahiran teknis yang kuat, terutama dalam penggunaan perangkat komputer.
+Keterampilan ini telah saya asah melalui pengalaman aktif dalam berbagai bidang pekerjaan, yang tidak hanya mengembangkan kemampuan saya
+dalam berkerja sama dalam tim, tetapi juga mempertajam kualitas kepemimpinan saya. Kesediaan saya untuk terus belajar dan beradaptasi
+menjadikan saya kandidat yang ideal untuk dapat memberikan kontribusi signifikan dalam lingkungan profesional.
         </textarea
           >
         </td>
       </tr>
-    </table>
+    </table>
 </body>
 </html>
